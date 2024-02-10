@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://cylcyp6y0r4b"]
+[gd_scene load_steps=6 format=3 uid="uid://cylcyp6y0r4b"]
 
 [ext_resource type="Script" path="res://src/scripts/main.gd" id="1_ttp6j"]
 [ext_resource type="Script" path="res://src/scripts/responsive_helper.gd" id="2_cifph"]
@@ -6,6 +6,9 @@
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4p7q1"]
 bg_color = Color(0, 0.243137, 0.141176, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mrt5p"]
+bg_color = Color(0, 0, 0, 1)
 
 [node name="FibonacciMain" type="Node2D"]
 script = ExtResource("1_ttp6j")
@@ -48,7 +51,9 @@ offset_right = 640.0
 offset_bottom = 407.0
 focus_mode = 2
 theme = ExtResource("2_u0adm")
+theme_override_styles/normal = SubResource("StyleBoxFlat_mrt5p")
 text = " 0 "
+shortcut_keys_enabled = false
 selection_enabled = true
 script = ExtResource("2_cifph")
 alignment = "Full alignment"
