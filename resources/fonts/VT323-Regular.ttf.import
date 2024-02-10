@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://biytjwusaexqi"
-path="res://.godot/imported/HubotSans-Regular.ttf-c3a13f57684ae99ca034f8c530686449.fontdata"
+uid="uid://cpl16q8mp1bhf"
+path="res://.godot/imported/VT323-Regular.ttf-ccdf233906cf0e05731b4fc4f5bb8038.fontdata"
 
 [deps]
 
-source_file="res://resources/fonts/HubotSans-Regular.ttf"
-dest_files=["res://.godot/imported/HubotSans-Regular.ttf-c3a13f57684ae99ca034f8c530686449.fontdata"]
+source_file="res://resources/fonts/VT323-Regular.ttf"
+dest_files=["res://.godot/imported/VT323-Regular.ttf-ccdf233906cf0e05731b4fc4f5bb8038.fontdata"]
 
 [params]
 
@@ -27,12 +27,7 @@ Fallbacks=null
 fallbacks=[]
 Compress=null
 compress=true
-preload=[{
-"chars": [],
-"glyphs": [],
-"name": "New Configuration",
-"size": Vector2i(16, 0)
-}]
+preload=[]
 language_support={}
 script_support={}
 opentype_features={}

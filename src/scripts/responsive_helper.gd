@@ -47,4 +47,3 @@ func _process(_delta):
 	if set_custom_margin:
 		self.position.y = custom_top_margin
 		self.size.y = self.size.y - custom_bottom_margin
-		print(self.size)

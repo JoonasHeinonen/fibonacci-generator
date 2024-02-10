@@ -1,6 +1,6 @@
-[gd_resource type="Theme" load_steps=12 format=3 uid="uid://coy32dn4ayweq"]
+[gd_resource type="Theme" load_steps=13 format=3 uid="uid://coy32dn4ayweq"]
 
-[ext_resource type="FontFile" uid="uid://biytjwusaexqi" path="res://resources/fonts/HubotSans-Regular.ttf" id="1_vs3y3"]
+[ext_resource type="FontFile" uid="uid://cpl16q8mp1bhf" path="res://resources/fonts/VT323-Regular.ttf" id="1_wprmq"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_t0k3p"]
 bg_color = Color(0, 0.478431, 0.301961, 1)
@@ -32,8 +32,12 @@ bg_color = Color(0, 0.396078, 0.247059, 1)
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pa3oo"]
 bg_color = Color(0, 0.478431, 0.301961, 1)
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xltwh"]
+bg_color = Color(0, 0, 0, 1)
+
 [resource]
-default_font = ExtResource("1_vs3y3")
+default_font = ExtResource("1_wprmq")
+default_font_size = 20
 Button/styles/focus = SubResource("StyleBoxFlat_t0k3p")
 Button/styles/hover = SubResource("StyleBoxFlat_gvjmy")
 Button/styles/normal = SubResource("StyleBoxFlat_2cq7v")
@@ -44,3 +48,4 @@ RichTextLabel/styles/focus = SubResource("StyleBoxFlat_h87b3")
 RichTextLabel/styles/normal = SubResource("StyleBoxFlat_dfrj7")
 TextEdit/styles/focus = SubResource("StyleBoxFlat_1k7yw")
 TextEdit/styles/normal = SubResource("StyleBoxFlat_pa3oo")
+VScrollBar/styles/scroll = SubResource("StyleBoxFlat_xltwh")

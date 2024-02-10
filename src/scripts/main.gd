@@ -52,14 +52,15 @@ func _process(delta):
 ## Generates the Fibonacci sequence.
 func generate_sequence(terms : int, cleared : bool):
 	if !cleared:
-		warning_text.text = "Fibonacci sequence generated!"
+		var output_text = "Fibonacci sequence generated! Generated {str} terms."
+		warning_text.text = output_text.format({"str": terms})
 	else:
 		warning_text.text = "Clearing the current input and the sequence..."
 
 	var fibonacci_sequence_text = ""
 	if (terms >= 0):
 		while count < terms:
-			fibonacci_sequence_text = fibonacci_sequence_text + str(fib_0) + "  "
+			fibonacci_sequence_text = fibonacci_sequence_text + str(fib_0) + "\n"
 			fibonacci_sequence.text = fibonacci_sequence_text
 			var fib = fib_0 + fib_1
 			fib_0 = fib_1
